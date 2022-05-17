@@ -1,9 +1,130 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T07:27:09.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" etag="vJXYIRQvcGSCz3vboDTr" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T07:10:51.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="kQRuLU6P4H1ZFS6Ugf_i" version="18.0.6" type="github">
   <diagram id="gPAzEKg05TV85xDOiJgB" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="05CRMUyRXogphat5QLLK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.017;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="05CRMUyRXogphat5QLLK-4" target="05CRMUyRXogphat5QLLK-5">
+          <mxGeometry x="0.1066" relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="321" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-9" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;1.请求获取access_token&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="05CRMUyRXogphat5QLLK-7">
+          <mxGeometry x="0.147" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="05CRMUyRXogphat5QLLK-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-19" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;5.携带access_token请求服务资源&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="05CRMUyRXogphat5QLLK-18">
+          <mxGeometry x="-0.2304" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;客户端&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry y="280" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="05CRMUyRXogphat5QLLK-5" target="05CRMUyRXogphat5QLLK-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="330" />
+              <mxPoint x="580" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-13" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;2.网关转发请求到授权服务&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="05CRMUyRXogphat5QLLK-10">
+          <mxGeometry x="-0.0854" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="05CRMUyRXogphat5QLLK-5" target="05CRMUyRXogphat5QLLK-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="362" />
+              <mxPoint x="210" y="362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-17" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;4.返回access_token&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="05CRMUyRXogphat5QLLK-16">
+          <mxGeometry x="-0.0816" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="05CRMUyRXogphat5QLLK-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="430" />
+              <mxPoint x="570" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-21" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;6.检验token&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="05CRMUyRXogphat5QLLK-20">
+          <mxGeometry x="-0.1748" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="05CRMUyRXogphat5QLLK-5" target="05CRMUyRXogphat5QLLK-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-30" value="8.认证，鉴权成功转发给下游发微服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="05CRMUyRXogphat5QLLK-29">
+          <mxGeometry x="-0.6796" y="2" relative="1" as="geometry">
+            <mxPoint x="73" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;网关SpringCloudGateway&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="414" y="290" width="120" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.967;entryY=0.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="05CRMUyRXogphat5QLLK-6" target="05CRMUyRXogphat5QLLK-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-15" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;3.返回授权的access_token&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="05CRMUyRXogphat5QLLK-14">
+          <mxGeometry x="0.1142" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-6" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Oauth2授权服务&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="715" as="targetPoint" />
+            <mxPoint x="534" y="585" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="570" y="585" />
+              <mxPoint x="570" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-23" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;7.鉴权&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="05CRMUyRXogphat5QLLK-22">
+          <mxGeometry x="-0.1748" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-24" value="微服务" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="760" width="560" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-25" value="服务1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="830" y="860" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-27" value="服务1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="860" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="05CRMUyRXogphat5QLLK-28" value="服务1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="860" width="120" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
